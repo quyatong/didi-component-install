@@ -1,0 +1,38 @@
+{
+  "name": "component-install",
+  "version": "0.0.0",
+  "description": "a component installer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webzhangnan/component-install.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webzhangnan/component-install/issues"
+  },
+  "main": "main.js",
+  "author": "webzhangnan@gmail.com",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "colors": "0.6.2",
+    "debug": "1.0.0",
+    "decompress": "0.2.3",
+    "fis-kernel": "2.0.3",
+    "mkdirp": "0.5.0",
+    "prompt": "0.2.14",
+    "rimraf": "2.2.8",
+    "semver": "2.3.0",
+    "request": "2.61.0",
+    "write-to": "1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "fis-kernel": "*"
+  },
+  "scripts": {
+    "test": "mocha --require should --reporter spec --timeout  10000"
+  }
+}
