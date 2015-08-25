@@ -1,6 +1,6 @@
 {
   "name": "didi-component-install",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a component installer",
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
     "colors": "0.6.2",
     "debug": "1.0.0",
     "decompress": "0.2.3",
-    "fis-kernel": "2.0.3",
     "mkdirp": "0.5.0",
     "prompt": "0.2.14",
     "rimraf": "2.2.8",
