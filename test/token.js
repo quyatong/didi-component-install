@@ -8,19 +8,18 @@ describe('token', function () {
     describe('#prompt()', function(){
         beforeEach(function(){
             token.reset();
-            fs.unlinkSync(token_path);
+            fs.existsSync(token_path) && fs.unlinkSync(token_path);
         });
         it('should specify [prompt] method ', function (done) {
             token.prompt.should.be.a.function;
             token.prompt(function(tokenString){
                 tokenString.should.match(/\w+/);
-                fs.readFileSync(token_path);
                 done()
             });
                    
         });
         afterEach(function(){
-            fs.unlinkSync(token_path);
+            fs.existsSync(token_path) && fs.unlinkSync(token_path);
         });
 
     });
@@ -39,7 +38,7 @@ describe('token', function () {
         });
 
         afterEach(function(){
-            fs.unlinkSync(token_path);
+            fs.existsSync(token_path) && fs.unlinkSync(token_path);
         });
     });
 });
