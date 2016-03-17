@@ -4,10 +4,10 @@
   "description": "a component installer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webzhangnan/component-install.git"
+    "url": "https://github.com/microconan/component-install.git"
   },
   "bugs": {
-    "url": "https://github.com/webzhangnan/component-install/issues"
+    "url": "https://github.com/microconan/component-install/issues"
   },
   "main": "main.js",
   "author": "webzhangnan@gmail.com",
