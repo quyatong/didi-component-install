@@ -19,11 +19,12 @@
     "colors": "0.6.2",
     "debug": "1.0.0",
     "decompress": "0.2.3",
+    "inquirer": "^1.1.2",
     "mkdirp": "0.5.0",
     "prompt": "0.2.14",
+    "request": "2.61.0",
     "rimraf": "2.2.8",
     "semver": "2.3.0",
-    "request": "2.61.0",
     "write-to": "1.0.1"
   },
   "devDependencies": {
